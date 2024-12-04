@@ -19,11 +19,13 @@ Role Variables
 Example Playbook
 ----------------
 
+```
 - name: Install Vector
   hosts: vector
   roles:
     - role: vector-role
       tags: vector
+```
 
 License
 -------
